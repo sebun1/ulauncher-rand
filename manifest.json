@@ -1,0 +1,19 @@
+{
+	"required_api_version": "2",
+	"name": "Random",
+	"description": "Generate random values of a given type",
+	"developer_name": "nitrojector",
+	"icon": "images/icon.png",
+	"options": {
+		"query_debounce": 0.1
+	},
+	"preferences": [
+		{
+			"id": "random_kw",
+			"type": "keyword",
+			"name": "Random",
+			"description": "Generate random values of a given type",
+			"default_value": "rand"
+		}
+	]
+}
